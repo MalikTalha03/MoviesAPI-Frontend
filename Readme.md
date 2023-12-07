@@ -7,9 +7,10 @@ Backend and Server side code is written in Node.js and Express.js. MongoDB is us
 Backend is hosted on Vercel and frontend is hosted on Github Pages.
 
 ## Demo
-[**Live Demo**](https://maliktalha03.github.io/MoviesAPI-Frontend/)
-[**Backend**](https://movies-api-dh9c.vercel.app/)
-[**Frontend**](https://maliktalha03.github.io/MoviesAPI-Frontend/)
+
+[**Live Demo**](https://maliktalha03.github.io/MoviesAPI-Frontend/) <br/>
+[**Backend**](https://movies-api-dh9c.vercel.app/) <br/>
+[**Frontend**](https://maliktalha03.github.io/MoviesAPI-Frontend/) <br/>
 
 ## API Endpoints
 ### Movies
