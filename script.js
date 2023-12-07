@@ -1,6 +1,5 @@
 $(document).ready(function () {
   loadmovies();
-  url = "https://movies-api-dh9c.vercel.app/api/movies"
   var openPopupBtn = $("#openPopupBtn");
   var closePopupBtn = $("#closePopupBtn");
   var popup = $("#popup");
@@ -23,6 +22,8 @@ $(document).ready(function () {
     }
   });
 });
+
+url = "https://movies-api-dh9c.vercel.app/api/movies"
 
 async function getmovies() {
   try {
