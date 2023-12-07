@@ -6,6 +6,12 @@ This is a simple API that allows you to manage movies and their genres. It is bu
 Backend and Server side code is written in Node.js and Express.js. MongoDB is used as the database. Frontend is written in HTML, CSS, and JavaScript.
 Backend is hosted on Vercel and frontend is hosted on Github Pages.
 
+## Demo
+[**Live Demo**](https://maliktalha03.github.io/MoviesAPI-Frontend/)
+[**Backend**](https://movies-api-dh9c.vercel.app/)
+[**Frontend**](https://maliktalha03.github.io/MoviesAPI-Frontend/)
+[**Postman Collection**](https://www.getpostman.com/collections/9b8b8b8b8b8b8b8b8b8b)
+
 ## API Endpoints
 ### Movies
 - GET /api/movies
