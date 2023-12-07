@@ -1,5 +1,6 @@
 $(document).ready(function () {
   loadmovies();
+  url = "https://movies-api-dh9c.vercel.app/api/movies"
   var openPopupBtn = $("#openPopupBtn");
   var closePopupBtn = $("#closePopupBtn");
   var popup = $("#popup");
@@ -26,7 +27,7 @@ $(document).ready(function () {
 async function getmovies() {
   try {
     const data = await $.ajax({
-      url: "http://localhost:8086/api/movies",
+      url: url,
       method: "GET",
       contentType: "application/json",
     });
@@ -151,7 +152,7 @@ async function postdata() {
     poster: poster,
   };
   $.ajax({
-    url: "http://localhost:8086/api/movies",
+    url: url,
     method: "POST",
     contentType: "application/json",
     data: JSON.stringify(movie),
@@ -247,7 +248,7 @@ async function editdata(id) {
     poster: poster,
   };
   $.ajax({
-    url: "http://localhost:8086/api/movies/" + id,
+    url: url + id,
     method: "PATCH",
     contentType: "application/json",
     data: JSON.stringify(movie),
@@ -263,7 +264,7 @@ async function editdata(id) {
 
 async function deletedata(id) {
   $.ajax({
-    url: "http://localhost:8086/api/movies/" + id,
+    url: url + id,
     method: "DELETE",
     contentType: "application/json",
     success: function (data) {
