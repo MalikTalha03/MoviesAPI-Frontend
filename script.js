@@ -23,7 +23,7 @@ $(document).ready(function () {
   });
 });
 
-url = "https://movies-api-dh9c.vercel.app/api/movies"
+url = "https://movies-api-dh9c.vercel.app/api/movies/"
 
 async function getmovies() {
   try {
