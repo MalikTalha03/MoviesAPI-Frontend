@@ -94,7 +94,7 @@ async function getmovies() {
                 editGenre.val(value.genre);
                 editProducer.val(value.producer);
                 editRating.val(value.rating);
-                editPoster.val(value.poster);
+                editPoster.val("");
                 editCloseBtn.click(function () {
                     editPopup.hide();
                 });
